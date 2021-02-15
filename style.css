@@ -1,0 +1,87 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+ .background_img {
+     background-image: url(Stamford_Bridge_Clear_Skies.jfif);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+
+ }
+
+ /* .logo1 {
+     width: 92px;
+     height: 150px;
+     margin-left: -0.2%;
+ } */
+
+ /* .logo2{
+    width: 92px;
+    height: 150px;
+    position: relative;
+    left: 1338px;
+ } */
+
+ .navbar{
+     margin: 0%;
+     display: flex;
+     align-items: center;
+     /* justify-content: space-between; */
+     background:rgb(134, 134, 248);
+     line-height: 70px; 
+ }
+
+ 
+ /* .navbar i{
+     float: right;
+     margin: 5px;
+     cursor: pointer;
+ } */
+
+ .navbar ul a{
+     color: white;
+    text-transform: uppercase;
+     padding: 1rem;
+     text-align: center;
+     font-size: 15px;
+     border-radius: 4px;
+     
+ }
+
+  .logo{
+      margin-left: -140em;
+      padding: 0 10px;
+     color: white;
+     font-size: 25px;
+     text-transform: uppercase; 
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+ }
+
+ .navbar ul{
+     display: flex;
+     text-align: center;
+ }
+  .navbar li {
+    display: inline-block;
+    margin:  0 15px;
+    border: 1px;
+    border-radius: 10px;
+    border-top: whitesmoke;
+  }
+
+ .navbar li :hover{
+     background-color: rgb(101, 101, 233);
+    
+ }
+
+ a.live, a:hover {
+     background:rgb(121, 93, 247);
+     transition: 0.1s;
+ }
